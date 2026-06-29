@@ -1,0 +1,31 @@
+# this file contains single source of truth for all parameters
+
+data:
+  teleco_path: data/raw/telco_customer_churn.csv
+  e-commerce_path: data/raw/e-commerce_customer_churn.csv
+  processed_path: data/processed/features.paraquet
+
+churn:
+  definition: 'Churn column equals Yes'
+  min_tenure_months: 1
+
+model:
+  test_size: 0.2
+  random_state: 42
+  cv_folds: 5
+  auc_threshold: 0.75                   # minumum AUC to regsiter model
+
+survival:
+  time_column: tenure
+  event_column: Churn_binary
+  segments: [Contract, InternetService, SeniorCitizen]
+
+monitoring:
+  psi_threshold: 0.2
+  reference_data: data/processed/reference_features.paraquet
+
+reporting:
+  significance_level: 0.05
+  finanical:
+    avg_monthly_revenue_per_customer: 65
+    cac_estimate: 450
