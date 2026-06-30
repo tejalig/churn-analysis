@@ -1,9 +1,9 @@
 # this file contains single source of truth for all parameters
 
 data:
-  teleco_path: data/raw/telco_customer_churn.csv
+  telco_path: data/raw/telco_customer_churn.csv
   e-commerce_path: data/raw/e-commerce_customer_churn.csv
-  processed_path: data/processed/features.paraquet
+  processed_path: data/processed/features.parquet
 
 churn:
   definition: 'Churn column equals Yes'
@@ -22,7 +22,7 @@ survival:
 
 monitoring:
   psi_threshold: 0.2
-  reference_data: data/processed/reference_features.paraquet
+  reference_data: data/processed/reference_features.parquet
 
 reporting:
   significance_level: 0.05
