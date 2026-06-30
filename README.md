@@ -51,3 +51,6 @@ churn_analysis/
 - Long-term contracts were the strongest protective factor against churn
 - Higher monthly charges increased churn risk, indicating price sensitivity
 - Greater product adoption significantly reduced churn risk
+
+# Resources
+- What is Churn? by IBM - https://www.ibm.com/think/topics/customer-churn
