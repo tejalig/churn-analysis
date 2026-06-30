@@ -41,8 +41,13 @@ churn_analysis/
 ```
 
 # Analysis
-## Descriptive
+## Descriptive - Baseline
 ### Key Findings
 - Customers on month-to-month contracts exhibit the highest churn rate (over 40%), making contract type the strongest structural indicator for churn
 - Churn is concentrated on the first six months of the customers's lifecycle, suggesting onboarding and early customer engagement would show retention opportuntiies
 - Customers that chose Fiber Optics as their internet service type shows higher churn rate indicating - pricing strategies, dissatisfaction with the service or misalignment in expectations
+
+## Survival Analysis
+- Long-term contracts were the strongest protective factor against churn
+- Higher monthly charges increased churn risk, indicating price sensitivity
+- Greater product adoption significantly reduced churn risk
