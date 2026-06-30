@@ -56,3 +56,6 @@ churn_analysis/
 - Higher monthly charges increased churn risk, indicating price sensitivity
 - Greater product adoption significantly reduced churn risk
 >>>>>>> survival
+
+# Resources
+- What is Churn? by IBM - https://www.ibm.com/think/topics/customer-churn
