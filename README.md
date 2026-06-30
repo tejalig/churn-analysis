@@ -3,6 +3,7 @@
 - Telecom Churn Data - 
 
 # Folder Structure
+```text
 churn_analysis/
 ├── data/
 │   ├── raw/                 # Original CSVs (gitignored)
@@ -37,4 +38,4 @@ churn_analysis/
 ├── Makefile             # One command to run everything
 ├── .github/workflows/ci.yml
 └── README.md
-
+```
